@@ -1,0 +1,824 @@
+{
+	"Locations" : [
+		{
+			"Region" : "Portugal",
+			"ID" : 1
+		},
+		{
+			"Region" : "Spain",
+			"ID" : 2
+		},
+		{
+			"Region" : "France",
+			"ID" : 3
+		},
+		{
+			"Region" : "United Kingdom",
+			"ID" : 4
+		},
+		{
+			"Region" : "Belgium",
+			"ID" : 5
+		},
+		{
+			"Region" : "Netherlands",
+			"ID" : 6
+		},
+		{
+			"Region" : "Luxembourg",
+			"ID" : 7
+		},
+		{
+			"Region" : "Switzerland",
+			"ID" : 8
+		},
+		{
+			"Region" : "Germany",
+			"ID" : 9
+		},
+		{
+			"Region" : "Italy",
+			"ID" : 10
+		},
+		{
+			"Region" : "Austria-Hungary",
+			"ID" : 11
+		},
+		{
+			"Region" : "Denmark",
+			"ID" : 12
+		},
+		{
+			"Region" : "Norway",
+			"ID" : 13
+		},
+		{
+			"Region" : "Sweden",
+			"ID" : 14
+		},
+		{
+			"Region" : "Russia",
+			"ID" : 15
+		},
+		{
+			"Region" : "Romania",
+			"ID" : 16
+		},
+		{
+			"Region" : "Serbia",
+			"ID" : 17
+		},
+		{
+			"Region" : "Montenegro",
+			"ID" : 18
+		},
+		{
+			"Region" : "Albania",
+			"ID" : 19
+		},
+		{
+			"Region" : "Bulgaria",
+			"ID" : 20
+		},
+		{
+			"Region" : "Greece",
+			"ID" : 21
+		},
+		{
+			"Region" : "Turkey",
+			"ID" : 22
+		}
+	],
+	
+	"Connections" : [
+		{
+			"fromRegionID" : 1,
+			"fromRegionName" : "Portugal",
+			"toRegionID" : 2,
+			"toRegionName" : "Spain"
+		},
+		
+		{
+			"fromRegionID" : 2,
+			"fromRegionName" : "Spain",
+			"toRegionID" : 1,
+			"toRegionName" : "Portugal"
+		},
+		{
+			"fromRegionID" : 2,
+			"fromRegionName" : "Spain",
+			"toRegionID" : 3,
+			"toRegionName" : "France"
+		},
+		
+		{
+			"fromRegionID" : 3,
+			"fromRegionName" : "France",
+			"toRegionID" : 2,
+			"toRegionName" : "Spain"
+		},
+		{
+			"fromRegionID" : 3,
+			"fromRegionName" : "France",
+			"toRegionID" : 4,
+			"toRegionName" : "United Kingdom"
+		},
+		{
+			"fromRegionID" : 3,
+			"fromRegionName" : "France",
+			"toRegionID" : 5,
+			"toRegionName" : "Belgium"
+		},
+		{
+			"fromRegionID" : 3,
+			"fromRegionName" : "France",
+			"toRegionID" : 7,
+			"toRegionName" : "Luxembourg"
+		},
+		{
+			"fromRegionID" : 3,
+			"fromRegionName" : "France",
+			"toRegionID" : 8,
+			"toRegionName" : "Switzerland"
+		},
+		{
+			"fromRegionID" : 3,
+			"fromRegionName" : "France",
+			"toRegionID" : 9,
+			"toRegionName" : "Germany"
+		},
+		{
+			"fromRegionID" : 3,
+			"fromRegionName" : "France",
+			"toRegionID" : 10,
+			"toRegionName" : "Italy"
+		},
+		
+		{
+			"fromRegionID" : 4,
+			"fromRegionName" : "United Kingdom",
+			"toRegionID" : 3,
+			"toRegionName" : "France"
+		},
+		{
+			"fromRegionID" : 4,
+			"fromRegionName" : "United Kingdom",
+			"toRegionID" : 6,
+			"toRegionName" : "Netherlands"
+		},
+		
+		{
+			"fromRegionID" : 5,
+			"fromRegionName" : "Belgium",
+			"toRegionID" : 3,
+			"toRegionName" : "France"
+		},
+		{
+			"fromRegionID" : 5,
+			"fromRegionName" : "Belgium",
+			"toRegionID" : 6,
+			"toRegionName" : "Netherlands"
+		},
+		{
+			"fromRegionID" : 5,
+			"fromRegionName" : "Belgium",
+			"toRegionID" : 7,
+			"toRegionName" : "Luxembourg"
+		},
+		{
+			"fromRegionID" : 5,
+			"fromRegionName" : "Belgium",
+			"toRegionID" : 9,
+			"toRegionName" : "Germany"
+		},
+		
+		{
+			"fromRegionID" : 6,
+			"fromRegionName" : "Netherlands",
+			"toRegionID" : 4,
+			"toRegionName" : "United Kingdom"
+		},
+		{
+			"fromRegionID" : 6,
+			"fromRegionName" : "Netherlands",
+			"toRegionID" : 5,
+			"toRegionName" : "Belgium"
+		},
+		{
+			"fromRegionID" : 6,
+			"fromRegionName" : "Netherlands",
+			"toRegionID" : 9,
+			"toRegionName" : "Germany"
+		},
+		
+		{
+			"fromRegionID" : 7,
+			"fromRegionName" : "Luxembourg",
+			"toRegionID" : 3,
+			"toRegionName" : "France"
+		},
+		{
+			"fromRegionID" : 7,
+			"fromRegionName" : "Luxembourg",
+			"toRegionID" : 5,
+			"toRegionName" : "Belgium"
+		},
+		{
+			"fromRegionID" : 7,
+			"fromRegionName" : "Luxembourg",
+			"toRegionID" : 9,
+			"toRegionName" : "Germany"
+		},
+		
+		{
+			"fromRegionID" : 8,
+			"fromRegionName" : "Switzerland",
+			"toRegionID" : 3,
+			"toRegionName" : "France"
+		},
+		{
+			"fromRegionID" : 8,
+			"fromRegionName" : "Switzerland",
+			"toRegionID" : 9,
+			"toRegionName" : "Germany"
+		},
+		{
+			"fromRegionID" : 8,
+			"fromRegionName" : "Switzerland",
+			"toRegionID" : 10,
+			"toRegionName" : "Italy"
+		},
+		{
+			"fromRegionID" : 8,
+			"fromRegionName" : "Switzerland",
+			"toRegionID" : 11,
+			"toRegionName" : "Austria-Hungary"
+		},
+		
+		{
+			"fromRegionID" : 9,
+			"fromRegionName" : "Germany",
+			"toRegionID" : 3,
+			"toRegionName" : "France"
+		},
+		{
+			"fromRegionID" : 9,
+			"fromRegionName" : "Germany",
+			"toRegionID" : 5,
+			"toRegionName" : "Belgium"
+		},
+		{
+			"fromRegionID" : 9,
+			"fromRegionName" : "Germany",
+			"toRegionID" : 6,
+			"toRegionName" : "Netherlands"
+		},
+		{
+			"fromRegionID" : 9,
+			"fromRegionName" : "Germany",
+			"toRegionID" : 7,
+			"toRegionName" : "Luxembourg"
+		},
+		{
+			"fromRegionID" : 9,
+			"fromRegionName" : "Germany",
+			"toRegionID" : 8,
+			"toRegionName" : "Switzerland"
+		},
+		{
+			"fromRegionID" : 9,
+			"fromRegionName" : "Germany",
+			"toRegionID" : 11,
+			"toRegionName" : "Austria-Hungary"
+		},
+		{
+			"fromRegionID" : 9,
+			"fromRegionName" : "Germany",
+			"toRegionID" : 12,
+			"toRegionName" : "Denmark"
+		},
+		{
+			"fromRegionID" : 9,
+			"fromRegionName" : "Germany",
+			"toRegionID" : 15,
+			"toRegionName" : "Russia"
+		},
+		
+		{
+			"fromRegionID" : 10,
+			"fromRegionName" : "Italy",
+			"toRegionID" : 3,
+			"toRegionName" : "France"
+		},
+		{
+			"fromRegionID" : 10,
+			"fromRegionName" : "Italy",
+			"toRegionID" : 8,
+			"toRegionName" : "Switzerland"
+		},
+		{
+			"fromRegionID" : 10,
+			"fromRegionName" : "Italy",
+			"toRegionID" : 11,
+			"toRegionName" : "Austria-Hungary"
+		},
+		
+		{
+			"fromRegionID" : 11,
+			"fromRegionName" : "Austria-Hungary",
+			"toRegionID" : 8,
+			"toRegionName" : "Switzerland"
+		},
+		{
+			"fromRegionID" : 11,
+			"fromRegionName" : "Austria-Hungary",
+			"toRegionID" : 9,
+			"toRegionName" : "Germany"
+		},
+		{
+			"fromRegionID" : 11,
+			"fromRegionName" : "Austria-Hungary",
+			"toRegionID" : 10,
+			"toRegionName" : "Italy"
+		},
+		{
+			"fromRegionID" : 11,
+			"fromRegionName" : "Austria-Hungary",
+			"toRegionID" : 15,
+			"toRegionName" : "Russia"
+		},
+		{
+			"fromRegionID" : 11,
+			"fromRegionName" : "Austria-Hungary",
+			"toRegionID" : 16,
+			"toRegionName" : "Romania"
+		},
+		{
+			"fromRegionID" : 11,
+			"fromRegionName" : "Austria-Hungary",
+			"toRegionID" : 17,
+			"toRegionName" : "Serbia"
+		},
+		{
+			"fromRegionID" : 11,
+			"fromRegionName" : "Austria-Hungary",
+			"toRegionID" : 18,
+			"toRegionName" : "Montenegro"
+		},
+		
+		{
+			"fromRegionID" : 12,
+			"fromRegionName" : "Denmark",
+			"toRegionID" : 9,
+			"toRegionName" : "Germany"
+		},
+		{
+			"fromRegionID" : 12,
+			"fromRegionName" : "Denmark",
+			"toRegionID" : 13,
+			"toRegionName" : "Norway"
+		},
+		{
+			"fromRegionID" : 12,
+			"fromRegionName" : "Denmark",
+			"toRegionID" : 14,
+			"toRegionName" : "Sweden"
+		},
+		
+		{
+			"fromRegionID" : 13,
+			"fromRegionName" : "Norway",
+			"toRegionID" : 12,
+			"toRegionName" : "Denmark"
+		},
+		{
+			"fromRegionID" : 13,
+			"fromRegionName" : "Norway",
+			"toRegionID" : 14,
+			"toRegionName" : "Sweden"
+		},
+		
+		{
+			"fromRegionID" : 14,
+			"fromRegionName" : "Sweden",
+			"toRegionID" : 12,
+			"toRegionName" : "Denmark"
+		},
+		{
+			"fromRegionID" : 14,
+			"fromRegionName" : "Sweden",
+			"toRegionID" : 13,
+			"toRegionName" : "Norway"
+		},
+		
+		{
+			"fromRegionID" : 15,
+			"fromRegionName" : "Russia",
+			"toRegionID" : 9,
+			"toRegionName" : "Germany"
+		},
+		{
+			"fromRegionID" : 15,
+			"fromRegionName" : "Russia",
+			"toRegionID" : 11,
+			"toRegionName" : "Austria-Hungary"
+		},
+		{
+			"fromRegionID" : 15,
+			"fromRegionName" : "Russia",
+			"toRegionID" : 16,
+			"toRegionName" : "Romania"
+		},
+		
+		{
+			"fromRegionID" : 16,
+			"fromRegionName" : "Romania",
+			"toRegionID" : 11,
+			"toRegionName" : "Austria-Hungary"
+		},
+		{
+			"fromRegionID" : 16,
+			"fromRegionName" : "Romania",
+			"toRegionID" : 15,
+			"toRegionName" : "Russia"
+		},
+		{
+			"fromRegionID" : 16,
+			"fromRegionName" : "Romania",
+			"toRegionID" : 15,
+			"toRegionName" : "Russia"
+		},
+		{
+			"fromRegionID" : 16,
+			"fromRegionName" : "Romania",
+			"toRegionID" : 17,
+			"toRegionName" : "Serbia"
+		},
+		{
+			"fromRegionID" : 16,
+			"fromRegionName" : "Romania",
+			"toRegionID" : 20,
+			"toRegionName" : "Bulgaria"
+		},
+		
+		{
+			"fromRegionID" : 17,
+			"fromRegionName" : "Serbia",
+			"toRegionID" : 11,
+			"toRegionName" : "Austria-Hungary"
+		},
+		{
+			"fromRegionID" : 17,
+			"fromRegionName" : "Serbia",
+			"toRegionID" : 16,
+			"toRegionName" : "Romania"
+		},
+		{
+			"fromRegionID" : 17,
+			"fromRegionName" : "Serbia",
+			"toRegionID" : 18,
+			"toRegionName" : "Montenegro"
+		},
+		{
+			"fromRegionID" : 17,
+			"fromRegionName" : "Serbia",
+			"toRegionID" : 19,
+			"toRegionName" : "Albania"
+		},
+		{
+			"fromRegionID" : 17,
+			"fromRegionName" : "Serbia",
+			"toRegionID" : 20,
+			"toRegionName" : "Bulgaria"
+		},
+		{
+			"fromRegionID" : 17,
+			"fromRegionName" : "Serbia",
+			"toRegionID" : 21,
+			"toRegionName" : "Greece"
+		},
+		
+		{
+			"fromRegionID" : 18,
+			"fromRegionName" : "Montenegro",
+			"toRegionID" : 11,
+			"toRegionName" : "Austria-Hungary"
+		},
+		{
+			"fromRegionID" : 18,
+			"fromRegionName" : "Montenegro",
+			"toRegionID" : 17,
+			"toRegionName" : "Serbia"
+		},
+		{
+			"fromRegionID" : 18,
+			"fromRegionName" : "Montenegro",
+			"toRegionID" : 19,
+			"toRegionName" : "Albania"
+		},
+		
+		{
+			"fromRegionID" : 19,
+			"fromRegionName" : "Albania",
+			"toRegionID" : 17,
+			"toRegionName" : "Serbia"
+		},
+		{
+			"fromRegionID" : 19,
+			"fromRegionName" : "Albania",
+			"toRegionID" : 18,
+			"toRegionName" : "Montenegro"
+		},
+		{
+			"fromRegionID" : 19,
+			"fromRegionName" : "Albania",
+			"toRegionID" : 21,
+			"toRegionName" : "Greece"
+		},
+		
+		{
+			"fromRegionID" : 20,
+			"fromRegionName" : "Bulgaria",
+			"toRegionID" : 16,
+			"toRegionName" : "Romania"
+		},
+		{
+			"fromRegionID" : 20,
+			"fromRegionName" : "Bulgaria",
+			"toRegionID" : 17,
+			"toRegionName" : "Serbia"
+		},
+		{
+			"fromRegionID" : 20,
+			"fromRegionName" : "Bulgaria",
+			"toRegionID" : 21,
+			"toRegionName" : "Greece"
+		},
+		{
+			"fromRegionID" : 20,
+			"fromRegionName" : "Bulgaria",
+			"toRegionID" : 22,
+			"toRegionName" : "Turkey"
+		},
+		
+		{
+			"fromRegionID" : 21,
+			"fromRegionName" : "Greece",
+			"toRegionID" : 17,
+			"toRegionName" : "Seriba"
+		},
+		{
+			"fromRegionID" : 21,
+			"fromRegionName" : "Greece",
+			"toRegionID" : 19,
+			"toRegionName" : "Albania"
+		},
+		{
+			"fromRegionID" : 21,
+			"fromRegionName" : "Greece",
+			"toRegionID" : 20,
+			"toRegionName" : "Bulgaria"
+		},
+		
+		{
+			"fromRegionID" : 22,
+			"fromRegionName" : "Turkey",
+			"toRegionID" : 20,
+			"toRegionName" : "Bulgaria"
+		}
+		
+	],
+	
+	"Trivia" : [
+		{
+			"Question" : "When did Germany declare war on Portugal",
+			"Answer" : "March 1916",
+			"RegionID" : 1
+		},
+		{
+			"Question" : "What side did Portugal fight on?",
+			"Answer" : "Allies",
+			"RegionID" : 1
+		},
+		{
+			"Question" : "What side did Spain fight on?",
+			"Answer" : "Neither",
+			"RegionID" : 2
+		},
+		{
+			"Question" : "During World War I, who was the Spanish prime minister?",
+			"Answer" : "Eduardo Dato",
+			"RegionID" : 2
+		},
+		{
+			"Question" : "France and what other country had become wealthy through creating vast worldwide empires?",
+			"Answer" : "Britain",
+			"RegionID" : 3
+		},
+		{
+			"Question" : "Which side was the United States on at the start of the war?",
+			"Answer" : "The United States was neutral at the start of the war",
+			"RegionID" : 3
+		},
+		{
+			"Question" : "World War I was mostly fought between the countries of what continent?",
+			"Answer" : "Europe",
+			"RegionID" : 3
+		},
+		{
+			"Question" : "The British and _______ fought together against the Germans on the Western Front.",
+			"Answer" : "French",
+			"RegionID" : 4
+		},
+		{
+			"Question" : "An explosion in _______ was heard in United Kingdom during World War I",
+			"Answer" : "France",
+			"RegionID" : 4
+		},
+		{
+			"Question" : "Germany invaded Belgium on _______.",
+			"Answer" : "August 4, 1914",
+			"RegionID" : 5
+		},
+		{
+			"Question" : "The Treaty of ________, ending World War I, abolished Belgium's obligatory neutrality.",
+			"Answer" : "Versailles",
+			"RegionID" : 5
+		},
+		{
+			"Question" : "What was Netherlands role in WWI?",
+			"Answer" : "Neutral",
+			"RegionID" : 6
+		},
+		{
+			"Question" : "_________ Belgians flee to the Netherlands.",
+			"Answer" : "One Million",
+			"RegionID" : 6
+		},
+		{
+			"Question" : "Germany invaded Luxembourg on _______.",
+			"Answer" : "August 2, 1914",
+			"RegionID" : 7
+		},
+		{
+			"Question" : "Luxembourg was on the _______ Front.",
+			"Answer" : "Western",
+			"RegionID" : 7
+		},
+		{
+			"Question" : "Was Switzerland invaded?",
+			"Answer" : "No",
+			"RegionID" : 8
+		},
+		{
+			"Question" : "Switzerland played what role?",
+			"Answer" : "Neutral",
+			"RegionID" : 8
+		},
+		{
+			"Question" : "Which country did America fight in World War I?",
+			"Answer" : "Germany",
+			"RegionID" : 9
+		},
+		{
+			"Question" : "What German policy called for the sinking of any and all vessels bound for Britain, regardless of type or nationality?",
+			"Answer" : "Unrestricted submarine warfare",
+			"RegionID" : 9
+		},
+		{
+			"Question" : "What document encouraged Mexico to reconquer three American states in return for German help?",
+			"Answer" : "The Zimmermann Telegram",
+			"RegionID" : 9
+		},
+		{
+			"Question" : "Italy joined the war in _______.",
+			"Answer" : "April 1915",
+			"RegionID" : 10
+		},
+		{
+			"Question" : "_______ Italians died in combat during the war.",
+			"Answer" : "600,000",
+			"RegionID" : 10
+		},
+		{
+			"Question" : "What single event triggered the start of World War I?",
+			"Answer" : "The assassination of Archduke Ferdinand",
+			"RegionID" : 11
+		},
+		{
+			"Question" : "Who was Archduke Ferdinand?",
+			"Answer" : "The heir to the throne of Austria-Hungary",
+			"RegionID" : 11
+		},
+		{
+			"Question" : "What was Denmark's role?",
+			"Answer" : "Neutral",
+			"RegionID" : 12
+		},
+		{
+			"Question" : "Was Denmark involved in negotiations at the end of the war?",
+			"Answer" : "Yes",
+			"RegionID" : 12
+		},
+		{
+			"Question" : "When WWI broke out, Norway had only been independent for _____ years.",
+			"Answer" : "9",
+			"RegionID" : 13
+		},
+		{
+			"Question" : "Norway is referred to as the _______.",
+			"Answer" : "Neutral Ally",
+			"RegionID" : 13
+		},
+		{
+			"Question" : "_______ stopped a large portion of Sweden's trade.",
+			"Answer" : "The Allies",
+			"RegionID" : 14
+		},
+		{
+			"Question" : "Sweden's demand to import freely favoured _______.",
+			"Answer" : "Germany",
+			"RegionID" : 14
+		},
+		{
+			"Question" : "Which ruler was overthrown by the Russian Revolution?",
+			"Answer" : "Tsar Nicholas II",
+			"RegionID" : 15
+		},
+		{
+			"Question" : "After Russia surrendered to _____ in March of 1918, the _____ were able to transfer their armies from the Eastern Front to France.",
+			"Answer" : "Germany, Germans",
+			"RegionID" : 15
+		},
+		{
+			"Question" : "Romania was neutral for how many years?",
+			"Answer" : "2",
+			"RegionID" : 16
+		},
+		{
+			"Question" : "Which side did Romania fight on after it broke neutrality?",
+			"Answer" : "The Allies",
+			"RegionID" : 16
+		},
+		{
+			"Question" : "What country declared war on Serbia at the very start of World War I?",
+			"Answer" : "Austria-Hungary",
+			"RegionID" : 17
+		},
+		{
+			"Question" : "_______ was a Serbian terrorist who assassinated Archduke Franz Ferdinand.",
+			"Answer" : "Gavrilo Princip",
+			"RegionID" : 17
+		},
+		{
+			"Question" : "The outcome of the First and Second ______ Wars in 1912 and 1913 had a devastating impact on the future of Montenegro.",
+			"Answer" : "Balkan",
+			"RegionID" : 18
+		},
+		{
+			"Question" : "The Montenegrin Campaign of World War I, in January 1916, was a part of the __________.",
+			"Answer" : "Serbian Campaign",
+			"RegionID" : 18
+		},
+		{
+			"Question" : "Albania gained independance on __________.",
+			"Answer" : "November 28, 1912",
+			"RegionID" : 19
+		},
+		{
+			"Question" : "Albania was recognized by the Great Powers as _________.",
+			"Answer" : "Principality of Albania",
+			"RegionID" : 19
+		},
+		{
+			"Question" : "Bulgraia was the _______ of Central Powers.",
+			"Answer" : "Smallest",
+			"RegionID" : 20
+		},
+		{
+			"Question" : "Bulgaria formally exited World War I on _______.",
+			"Answer" : "Septmeber 29, 1918",
+			"RegionID" : 20
+		},
+		{
+			"Question" : "It was not until ________ that Greece openly declared its hand and came out on the side of the _____.",
+			"Answer" : "July, 1917, Entente",
+			"RegionID" : 21
+		},
+		{
+			"Question" : "Greece's role at the beginning of the war was what?",
+			"Answer" : "Neutral",
+			"RegionID" : 21
+		},
+		{
+			"Question" : "Turkey was part of the _______.",
+			"Answer" : "Ottoman Empire",
+			"RegionID" : 22
+		},
+		{
+			"Question" : "Turkey fought for which side?",
+			"Answer" : "Cnetral Powers",
+			"RegionID" : 22
+		}
+	] 
+}

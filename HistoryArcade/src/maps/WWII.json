@@ -1,0 +1,1033 @@
+{
+	"Locations" : [
+		{
+			"Region" : "Portugal",
+			"ID" : 1
+		},
+		{
+			"Region" : "Spain",
+			"ID" : 2
+		},
+		{
+			"Region" : "France",
+			"ID" : 3
+		},
+		{
+			"Region" : "Great Britain",
+			"ID" : 4
+		},
+		{
+			"Region" : "Ireland",
+			"ID" : 5
+		},
+		{
+			"Region" : "Belgium",
+			"ID" : 6
+		},
+		{
+			"Region" : "Netherlands",
+			"ID" : 7
+		},
+		{
+			"Region" : "Luxembourg",
+			"ID" : 8
+		},
+		{
+			"Region" : "Switzerland",
+			"ID" : 9
+		},
+		{
+			"Region" : "Italy",
+			"ID" : 10
+		},
+		{
+			"Region" : "Austria",
+			"ID" : 11
+		},
+		{
+			"Region" : "Germany",
+			"ID" : 12
+		},
+		{
+			"Region" : "Denmark",
+			"ID" : 13
+		},
+		{
+			"Region" : "Norway",
+			"ID" : 14
+		},
+		{
+			"Region" : "Sweden",
+			"ID" : 15
+		},
+		{
+			"Region" : "Czechoslovakia",
+			"ID" : 16
+		},
+		{
+			"Region" : "Poland",
+			"ID" : 17
+		},
+		{
+			"Region" : "East Prussia",
+			"ID" : 18
+		},
+		{
+			"Region" : "Lithuania",
+			"ID" : 19
+		},
+		{
+			"Region" : "Latvia",
+			"ID" : 20
+		},
+		{
+			"Region" : "Estonia",
+			"ID" : 21
+		},
+		{
+			"Region" : "Finland",
+			"ID" : 22
+		},
+		{
+			"Region" : "USSR",
+			"ID" : 23
+		},
+		{
+			"Region" : "Romania",
+			"ID" : 24
+		},
+		{
+			"Region" : "Hungary",
+			"ID" : 25
+		},
+		{
+			"Region" : "Yugoslavia",
+			"ID" : 26
+		},
+		{
+			"Region" : "Albania",
+			"ID" : 27
+		},
+		{
+			"Region" : "Greece",
+			"ID" : 28
+		},
+		{
+			"Region" : "Bulgaria",
+			"ID" : 29
+		},
+		{
+			"Region" : "Turkey",
+			"ID" : 30
+		}
+	],
+	
+	"Connections" : [
+		{
+			"fromRegionID" : 1,
+			"fromRegionName" : "Portugal",
+			"toRegionID" : 2,
+			"toRegionName" : "Spain"
+		},
+		
+		{
+			"fromRegionID" : 2,
+			"fromRegionName" : "Spain",
+			"toRegionID" : 1,
+			"toRegionName" : "Portugal"
+		},
+		{
+			"fromRegionID" : 2,
+			"fromRegionName" : "Spain",
+			"toRegionID" : 3,
+			"toRegionName" : "France"
+		},
+		
+		{
+			"fromRegionID" : 3,
+			"fromRegionName" : "France",
+			"toRegionID" : 2,
+			"toRegionName" : "Spain"
+		},
+		{
+			"fromRegionID" : 3,
+			"fromRegionName" : "France",
+			"toRegionID" : 4,
+			"toRegionName" : "Great Britain"
+		},
+		{
+			"fromRegionID" : 3,
+			"fromRegionName" : "France",
+			"toRegionID" : 6,
+			"toRegionName" : "Belgium"
+		},
+		{
+			"fromRegionID" : 3,
+			"fromRegionName" : "France",
+			"toRegionID" : 8,
+			"toRegionName" : "Luxembourg"
+		},
+		{
+			"fromRegionID" : 3,
+			"fromRegionName" : "France",
+			"toRegionID" : 9,
+			"toRegionName" : "Switzerland"
+		},
+		{
+			"fromRegionID" : 3,
+			"fromRegionName" : "France",
+			"toRegionID" : 10,
+			"toRegionName" : "Italy"
+		},
+		{
+			"fromRegionID" : 3,
+			"fromRegionName" : "France",
+			"toRegionID" : 12,
+			"toRegionName" : "Germany"
+		},
+		
+		{
+			"fromRegionID" : 4,
+			"fromRegionName" : "Great Britain",
+			"toRegionID" : 3,
+			"toRegionName" : "France"
+		},
+		{
+			"fromRegionID" : 4,
+			"fromRegionName" : "Great Britain",
+			"toRegionID" : 5,
+			"toRegionName" : "Ireland"
+		},
+		{
+			"fromRegionID" : 4,
+			"fromRegionName" : "Great Britain",
+			"toRegionID" : 7,
+			"toRegionName" : "Netherlands"
+		},
+		
+		{
+			"fromRegionID" : 5,
+			"fromRegionName" : "Ireland",
+			"toRegionID" : 4,
+			"toRegionName" : "Great Britain"
+		},
+		
+		{
+			"fromRegionID" : 6,
+			"fromRegionName" : "Belgium",
+			"toRegionID" : 3,
+			"toRegionName" : "France"
+		},
+		{
+			"fromRegionID" : 6,
+			"fromRegionName" : "Belgium",
+			"toRegionID" : 7,
+			"toRegionName" : "Netherlands"
+		},
+		{
+			"fromRegionID" : 6,
+			"fromRegionName" : "Belgium",
+			"toRegionID" : 8,
+			"toRegionName" : "Luxembourg"
+		},
+		{
+			"fromRegionID" : 6,
+			"fromRegionName" : "Belgium",
+			"toRegionID" : 12,
+			"toRegionName" : "Germany"
+		},
+		
+		{
+			"fromRegionID" : 7,
+			"fromRegionName" : "Netherlands",
+			"toRegionID" : 4,
+			"toRegionName" : "Great Britain"
+		},
+		{
+			"fromRegionID" : 7,
+			"fromRegionName" : "Netherlands",
+			"toRegionID" : 6,
+			"toRegionName" : "Belgium"
+		},
+		{
+			"fromRegionID" : 7,
+			"fromRegionName" : "Netherlands",
+			"toRegionID" : 12,
+			"toRegionName" : "Germany"
+		},
+		
+		{
+			"fromRegionID" : 8,
+			"fromRegionName" : "Luxembourg",
+			"toRegionID" : 3,
+			"toRegionName" : "France"
+		},
+		{
+			"fromRegionID" : 8,
+			"fromRegionName" : "Luxembourg",
+			"toRegionID" : 6,
+			"toRegionName" : "Belgium"
+		},
+		{
+			"fromRegionID" : 8,
+			"fromRegionName" : "Luxembourg",
+			"toRegionID" : 12,
+			"toRegionName" : "Germany"
+		},
+		
+		{
+			"fromRegionID" : 9,
+			"fromRegionName" : "Switzerland",
+			"toRegionID" : 3,
+			"toRegionName" : "France"
+		},
+		{
+			"fromRegionID" : 9,
+			"fromRegionName" : "Switzerland",
+			"toRegionID" : 10,
+			"toRegionName" : "Italy"
+		},
+		{
+			"fromRegionID" : 9,
+			"fromRegionName" : "Switzerland",
+			"toRegionID" : 11,
+			"toRegionName" : "Austria"
+		},
+		{
+			"fromRegionID" : 9,
+			"fromRegionName" : "Switzerland",
+			"toRegionID" : 12,
+			"toRegionName" : "Germany"
+		},
+		
+		{
+			"fromRegionID" : 10,
+			"fromRegionName" : "Italy",
+			"toRegionID" : 3,
+			"toRegionName" : "France"
+		},
+		{
+			"fromRegionID" : 10,
+			"fromRegionName" : "Italy",
+			"toRegionID" : 9,
+			"toRegionName" : "Switzerland"
+		},
+		{
+			"fromRegionID" : 10,
+			"fromRegionName" : "Italy",
+			"toRegionID" : 11,
+			"toRegionName" : "Austria"
+		},
+		{
+			"fromRegionID" : 10,
+			"fromRegionName" : "Italy",
+			"toRegionID" : 26,
+			"toRegionName" : "Yugoslavia"
+		},
+		
+		{
+			"fromRegionID" : 11,
+			"fromRegionName" : "Austria",
+			"toRegionID" : 9,
+			"toRegionName" : "Switzerland"
+		},
+		{
+			"fromRegionID" : 11,
+			"fromRegionName" : "Austria",
+			"toRegionID" : 10,
+			"toRegionName" : "Italy"
+		},
+		{
+			"fromRegionID" : 11,
+			"fromRegionName" : "Austria",
+			"toRegionID" : 12,
+			"toRegionName" : "Germany"
+		},
+		{
+			"fromRegionID" : 11,
+			"fromRegionName" : "Austria",
+			"toRegionID" : 16,
+			"toRegionName" : "Czechoslovakia"
+		},
+		{
+			"fromRegionID" : 11,
+			"fromRegionName" : "Austria",
+			"toRegionID" : 25,
+			"toRegionName" : "Hungary"
+		},
+		{
+			"fromRegionID" : 11,
+			"fromRegionName" : "Austria",
+			"toRegionID" : 26,
+			"toRegionName" : "Yugoslavia"
+		},
+		
+		{
+			"fromRegionID" : 12,
+			"fromRegionName" : "Germany",
+			"toRegionID" : 3,
+			"toRegionName" : "France"
+		},
+		{
+			"fromRegionID" : 12,
+			"fromRegionName" : "Germany",
+			"toRegionID" : 6,
+			"toRegionName" : "Belgium"
+		},
+		{
+			"fromRegionID" : 12,
+			"fromRegionName" : "Germany",
+			"toRegionID" : 7,
+			"toRegionName" : "Netherlands"
+		},
+		{
+			"fromRegionID" : 12,
+			"fromRegionName" : "Germany",
+			"toRegionID" : 8,
+			"toRegionName" : "Luxembourg"
+		},
+		{
+			"fromRegionID" : 12,
+			"fromRegionName" : "Germany",
+			"toRegionID" : 9,
+			"toRegionName" : "Switzerland"
+		},
+		{
+			"fromRegionID" : 12,
+			"fromRegionName" : "Germany",
+			"toRegionID" : 11,
+			"toRegionName" : "Austria"
+		},
+		{
+			"fromRegionID" : 12,
+			"fromRegionName" : "Germany",
+			"toRegionID" : 13,
+			"toRegionName" : "Denmark"
+		},
+		{
+			"fromRegionID" : 12,
+			"fromRegionName" : "Germany",
+			"toRegionID" : 16,
+			"toRegionName" : "Czechoslovakia"
+		},
+		{
+			"fromRegionID" : 12,
+			"fromRegionName" : "Germany",
+			"toRegionID" : 17,
+			"toRegionName" : "Poland"
+		},
+		
+		{
+			"fromRegionID" : 13,
+			"fromRegionName" : "Denmark",
+			"toRegionID" : 12,
+			"toRegionName" : "Germany"
+		},
+		{
+			"fromRegionID" : 13,
+			"fromRegionName" : "Denmark",
+			"toRegionID" : 14,
+			"toRegionName" : "Norway"
+		},
+		{
+			"fromRegionID" : 13,
+			"fromRegionName" : "Denmark",
+			"toRegionID" : 15,
+			"toRegionName" : "Sweden"
+		},
+		
+		{
+			"fromRegionID" : 14,
+			"fromRegionName" : "Norway",
+			"toRegionID" : 13,
+			"toRegionName" : "Denmark"
+		},
+		{
+			"fromRegionID" : 14,
+			"fromRegionName" : "Norway",
+			"toRegionID" : 15,
+			"toRegionName" : "Sweden"
+		},
+		
+		{
+			"fromRegionID" : 15,
+			"fromRegionName" : "Sweden",
+			"toRegionID" : 13,
+			"toRegionName" : "Denmark"
+		},
+		{
+			"fromRegionID" : 15,
+			"fromRegionName" : "Sweden",
+			"toRegionID" : 14,
+			"toRegionName" : "Norway"
+		},
+		{
+			"fromRegionID" : 15,
+			"fromRegionName" : "Sweden",
+			"toRegionID" : 22,
+			"toRegionName" : "Finland"
+		},
+		
+		{
+			"fromRegionID" : 16,
+			"fromRegionName" : "Czechoslovakia",
+			"toRegionID" : 11,
+			"toRegionName" : "Austria"
+		},
+		{
+			"fromRegionID" : 16,
+			"fromRegionName" : "Czechoslovakia",
+			"toRegionID" : 12,
+			"toRegionName" : "Germany"
+		},
+		{
+			"fromRegionID" : 16,
+			"fromRegionName" : "Czechoslovakia",
+			"toRegionID" : 17,
+			"toRegionName" : "Poland"
+		},
+		{
+			"fromRegionID" : 16,
+			"fromRegionName" : "Czechoslovakia",
+			"toRegionID" : 24,
+			"toRegionName" : "Romania"
+		},
+		{
+			"fromRegionID" : 16,
+			"fromRegionName" : "Czechoslovakia",
+			"toRegionID" : 25,
+			"toRegionName" : "Hungary"
+		},
+		
+		{
+			"fromRegionID" : 17,
+			"fromRegionName" : "Poland",
+			"toRegionID" : 12,
+			"toRegionName" : "Germany"
+		},
+		{
+			"fromRegionID" : 17,
+			"fromRegionName" : "Poland",
+			"toRegionID" : 16,
+			"toRegionName" : "Czechoslovakia"
+		},
+		{
+			"fromRegionID" : 17,
+			"fromRegionName" : "Poland",
+			"toRegionID" : 18,
+			"toRegionName" : "East Prussia"
+		},
+		{
+			"fromRegionID" : 17,
+			"fromRegionName" : "Poland",
+			"toRegionID" : 19,
+			"toRegionName" : "Lithuania"
+		},
+		{
+			"fromRegionID" : 17,
+			"fromRegionName" : "Poland",
+			"toRegionID" : 20,
+			"toRegionName" : "Latvia"
+		},
+		{
+			"fromRegionID" : 17,
+			"fromRegionName" : "Poland",
+			"toRegionID" : 23,
+			"toRegionName" : "USSR"
+		},
+		{
+			"fromRegionID" : 17,
+			"fromRegionName" : "Poland",
+			"toRegionID" : 24,
+			"toRegionName" : "Romania"
+		},
+		
+		{
+			"fromRegionID" : 18,
+			"fromRegionName" : "East Prussia",
+			"toRegionID" : 17,
+			"toRegionName" : "Poland"
+		},
+		{
+			"fromRegionID" : 18,
+			"fromRegionName" : "East Prussia",
+			"toRegionID" : 19,
+			"toRegionName" : "Lithuania"
+		},
+		
+		{
+			"fromRegionID" : 19,
+			"fromRegionName" : "Lithuania",
+			"toRegionID" : 17,
+			"toRegionName" : "Poland"
+		},
+		{
+			"fromRegionID" : 19,
+			"fromRegionName" : "Lithuania",
+			"toRegionID" : 18,
+			"toRegionName" : "East Prussia"
+		},
+		{
+			"fromRegionID" : 19,
+			"fromRegionName" : "Lithuania",
+			"toRegionID" : 20,
+			"toRegionName" : "Latvia"
+		},
+		
+		{
+			"fromRegionID" : 20,
+			"fromRegionName" : "Latvia",
+			"toRegionID" : 17,
+			"toRegionName" : "Poland"
+		},
+		{
+			"fromRegionID" : 20,
+			"fromRegionName" : "Latvia",
+			"toRegionID" : 19,
+			"toRegionName" : "Lithuania"
+		},
+		{
+			"fromRegionID" : 20,
+			"fromRegionName" : "Latvia",
+			"toRegionID" : 21,
+			"toRegionName" : "Estonia"
+		},
+		{
+			"fromRegionID" : 20,
+			"fromRegionName" : "Latvia",
+			"toRegionID" : 23,
+			"toRegionName" : "USSR"
+		},
+		
+		{
+			"fromRegionID" : 21,
+			"fromRegionName" : "Estonia",
+			"toRegionID" : 20,
+			"toRegionName" : "Latvia"
+		},
+		{
+			"fromRegionID" : 21,
+			"fromRegionName" : "Estonia",
+			"toRegionID" : 23,
+			"toRegionName" : "USSR"
+		},
+		
+		{
+			"fromRegionID" : 22,
+			"fromRegionName" : "Finland",
+			"toRegionID" : 15,
+			"toRegionName" : "Sweden"
+		},
+		{
+			"fromRegionID" : 22,
+			"fromRegionName" : "Finland",
+			"toRegionID" : 23,
+			"toRegionName" : "USSR"
+		},
+		
+		{
+			"fromRegionID" : 23,
+			"fromRegionName" : "USSR",
+			"toRegionID" : 17,
+			"toRegionName" : "Poland"
+		},
+		{
+			"fromRegionID" : 23,
+			"fromRegionName" : "USSR",
+			"toRegionID" : 20,
+			"toRegionName" : "Latvia"
+		},
+		{
+			"fromRegionID" : 23,
+			"fromRegionName" : "USSR",
+			"toRegionID" : 21,
+			"toRegionName" : "Estonia"
+		},
+		{
+			"fromRegionID" : 23,
+			"fromRegionName" : "USSR",
+			"toRegionID" : 22,
+			"toRegionName" : "Finland"
+		},
+		{
+			"fromRegionID" : 23,
+			"fromRegionName" : "USSR",
+			"toRegionID" : 24,
+			"toRegionName" : "Romania"
+		},
+		
+		{
+			"fromRegionID" : 24,
+			"fromRegionName" : "Romania",
+			"toRegionID" : 16,
+			"toRegionName" : "Czechoslovakia"
+		},
+		{
+			"fromRegionID" : 24,
+			"fromRegionName" : "Romania",
+			"toRegionID" : 17,
+			"toRegionName" : "Poland"
+		},
+		{
+			"fromRegionID" : 24,
+			"fromRegionName" : "Romania",
+			"toRegionID" : 23,
+			"toRegionName" : "USSR"
+		},
+		{
+			"fromRegionID" : 24,
+			"fromRegionName" : "Romania",
+			"toRegionID" : 25,
+			"toRegionName" : "Hungary"
+		},
+		{
+			"fromRegionID" : 24,
+			"fromRegionName" : "Romania",
+			"toRegionID" : 26,
+			"toRegionName" : "Yugoslavia"
+		},
+		{
+			"fromRegionID" : 24,
+			"fromRegionName" : "Romania",
+			"toRegionID" : 29,
+			"toRegionName" : "Bulgaria"
+		},
+		
+		{
+			"fromRegionID" : 25,
+			"fromRegionName" : "Hungary",
+			"toRegionID" : 11,
+			"toRegionName" : "Austria"
+		},
+		{
+			"fromRegionID" : 25,
+			"fromRegionName" : "Hungary",
+			"toRegionID" : 16,
+			"toRegionName" : "Czechoslovakia"
+		},
+		{
+			"fromRegionID" : 25,
+			"fromRegionName" : "Hungary",
+			"toRegionID" : 24,
+			"toRegionName" : "Romania"
+		},
+		{
+			"fromRegionID" : 25,
+			"fromRegionName" : "Hungary",
+			"toRegionID" : 26,
+			"toRegionName" : "Yugoslavia"
+		},
+		
+		{
+			"fromRegionID" : 26,
+			"fromRegionName" : "Yugoslavia",
+			"toRegionID" : 10,
+			"toRegionName" : "Italy"
+		},
+		{
+			"fromRegionID" : 26,
+			"fromRegionName" : "Yugoslavia",
+			"toRegionID" : 11,
+			"toRegionName" : "Austria"
+		},
+		{
+			"fromRegionID" : 26,
+			"fromRegionName" : "Yugoslavia",
+			"toRegionID" : 24,
+			"toRegionName" : "Romania"
+		},
+		{
+			"fromRegionID" : 26,
+			"fromRegionName" : "Yugoslavia",
+			"toRegionID" : 25,
+			"toRegionName" : "Hungary"
+		},
+		{
+			"fromRegionID" : 26,
+			"fromRegionName" : "Yugoslavia",
+			"toRegionID" : 27,
+			"toRegionName" : "Albania"
+		},
+		{
+			"fromRegionID" : 26,
+			"fromRegionName" : "Yugoslavia",
+			"toRegionID" : 28,
+			"toRegionName" : "Greece"
+		},
+		{
+			"fromRegionID" : 26,
+			"fromRegionName" : "Yugoslavia",
+			"toRegionID" : 29,
+			"toRegionName" : "Bulgaria"
+		},
+		
+		{
+			"fromRegionID" : 27,
+			"fromRegionName" : "Albania",
+			"toRegionID" : 26,
+			"toRegionName" : "Yugoslavia"
+		},
+		{
+			"fromRegionID" : 27,
+			"fromRegionName" : "Albania",
+			"toRegionID" : 28,
+			"toRegionName" : "Greece"
+		},
+		
+		{
+			"fromRegionID" : 28,
+			"fromRegionName" : "Greece",
+			"toRegionID" : 26,
+			"toRegionName" : "Yugoslavia"
+		},
+		{
+			"fromRegionID" : 28,
+			"fromRegionName" : "Greece",
+			"toRegionID" : 27,
+			"toRegionName" : "Albania"
+		},
+		{
+			"fromRegionID" : 28,
+			"fromRegionName" : "Greece",
+			"toRegionID" : 29,
+			"toRegionName" : "Bulgaria"
+		},
+		{
+			"fromRegionID" : 28,
+			"fromRegionName" : "Greece",
+			"toRegionID" : 30,
+			"toRegionName" : "Turkey"
+		},
+		
+		{
+			"fromRegionID" : 29,
+			"fromRegionName" : "Bulgaria",
+			"toRegionID" : 24,
+			"toRegionName" : "Romania"
+		},
+		{
+			"fromRegionID" : 29,
+			"fromRegionName" : "Bulgaria",
+			"toRegionID" : 26,
+			"toRegionName" : "Yugoslavia"
+		},
+		{
+			"fromRegionID" : 29,
+			"fromRegionName" : "Bulgaria",
+			"toRegionID" : 28,
+			"toRegionName" : "Greece"
+		},
+		{
+			"fromRegionID" : 29,
+			"fromRegionName" : "Bulgaria",
+			"toRegionID" : 30,
+			"toRegionName" : "Turkey"
+		},
+		
+		{
+			"fromRegionID" : 30,
+			"fromRegionName" : "Turkey",
+			"toRegionID" : 28,
+			"toRegionName" : "Greece"
+		},
+		{
+			"fromRegionID" : 30,
+			"fromRegionName" : "Turkey",
+			"toRegionID" : 29,
+			"toRegionName" : "Bulgaria"
+		}
+	],
+	
+	"Trivia" : [
+		{
+			"Question" : "What side did Portugal fight on?",
+			"Answer" : "Allies",
+			"RegionID" : 1
+		},
+		{
+			"Question" : "How many Portugese soldiers fought in the war?",
+			"Answer" : "100,000",
+			"RegionID" : 1
+		},
+		{
+			"Question" : "Who was the Spanish leader during WWII?",
+			"Answer" : "Francisco Franco",
+			"RegionID" : 2
+		},
+		{
+			"Question" :"What side did Spain fight on?",
+			"Answer" : "Axis",
+			"RegionID" : 2
+		},
+		{
+			"Question" : "French army was the ______ during the war.",
+			"Answer" : "Largest",
+			"RegionID" : 3
+		},
+		{
+			"Question" : "________ Allied troops were evacuated from France in mid-June",
+			"Answer" : "191,000",
+			"RegionID" : 3
+		},
+		{
+			"Question" : "Great Britain's air force was called what?",
+			"Answer" : "Royal Air Force",
+			"RegionID" : 4
+		},
+		{
+			"Question" : "It is estimated that around _______ British planes were shot down during the battle",
+			"Answer" : "1,000",
+			"RegionID" : 4
+		},
+		{
+			"Question" : "Did Ireland fight in the war",
+			"Answer" : "No",
+			"RegionID" : 5
+		},
+		{
+			"Question" : "Belgium sustained how many casualties in the war?",
+			"Answer" : "12,100",
+			"RegionID" : 6
+		},
+		{
+			"Question" : "Which side did Belgium fight on?",
+			"Answer" : "Allies",
+			"RegionID" : 6
+		},
+		{
+			"Question" : "When was Netherlands invaded by Germany?",
+			"Answer" : "May 10, 1940",
+			"RegionID" : 7
+		},
+		{
+			"Question" : "Luxembourg was placed under occupation and was annexed into ________ in 1942.",
+			"Answer" : "Germany",
+			"RegionID" : 8
+		},
+		{
+			"Question" : "During WWII, what side was Switzerland on?",
+			"Answer" : "Neutral",
+			"RegionID" : 9
+		},
+		{
+			"Question" : "In what country was the Fascist party and government formed?",
+			"Answer" : "Italy",
+			"RegionID" : 10
+		},
+		{
+			"Question" : "What was Benito Mussolini's title?",
+			"Answer" : "Il Duce",
+			"RegionID" : 10
+		},
+		{
+			"Question" : "How many Austrian Jews had left Austria?",
+			"Answer" : "100,000",
+			"RegionID" : 11
+		},
+		{
+			"Question" : "The title of Hitler's book, Mein Kampf, in English means what?",
+			"Answer" : "My Struggle",
+			"RegionID" : 12
+		},
+		{
+			"Question" : "What was the post WWI government called in Germany?",
+			"Answer" : "The Weimar Republic",
+			"RegionID" : 12
+		},
+		{
+			"Question" : "At the outset of World War II, Denmark declared itself ______",
+			"Answer" : "Neutral",
+			"RegionID" : 13
+		},
+		{
+			"Question" : "The _________ was a key location for the attacking German soldiers.",
+			"Answer" : "Oslofjord",
+			"RegionID" : 14
+		},
+		{
+			"Question" : "Sweden shared military intelligence and helped to train soldiers made up of refugees from _______ and _______",
+			"Answer" : "Denmark, Norway",
+			"RegionID" : 15
+		},
+		{
+			"Question" : "_________ was held to address the problem of a German threat to Czechoslovakia",
+			"Answer" : "The Munich Conference",
+			"RegionID" : 16
+		},
+		{
+			"Question" : "________ first successfully used the blitzkrieg tactics in an attack on Poland",
+			"Answer" : "Germany",
+			"RegionID" : 17
+		},
+		{
+			"Question" : "East Prussia was divvided between ________ and ________ after WWII.",
+			"Answer" : "USSR, Poland",
+			"RegionID" : 18
+		},
+		{
+			"Question" : "When did Lithuania agree to German terms to surrender territory of Memel?",
+			"Answer" : "March 21, 1939",
+			"RegionID" : 19
+		},
+		{
+			"Question" : "Latvia fell prey to the realpolitik of both ________ and __________",
+			"Answer" : "Germany, USSR",
+			"RegionID" : 20
+		},
+		{
+			"Question" : "World War II losses in Estonia, estimated at around ___% of the population, were among the highest proportion in Europe",
+			"Answer" : "25",
+			"RegionID" : 21
+		},
+		{
+			"Question" : "Who did Finland ally with?",
+			"Answer" : "Germany",
+			"RegionID" : 22
+		},
+		{
+			"Question" : "USSR signed a non-aggression pact with _______ in August 1939.",
+			"Answer" : "Germany",
+			"RegionID" : 23
+		},
+		{
+			"Question" : "Did the Germans ever capture Moscow?",
+			"Answer" : "No",
+			"RegionID" : 23
+		},
+		{
+			"Question" : "Romania was a part of the _____",
+			"Answer" : "Axis Powers",
+			"RegionID" : 24
+		},
+		{
+			"Question" : "In ____, Hungarian and German forces in Hungary were defeated by advancing Soviet armies.",
+			"Answer" : "1945",
+			"RegionID" : 25
+		},
+		{
+			"Question" : "Yugoslavia means what in Serbo-Croatian?",
+			"Answer" : "Land of the Southern Slavs",
+			"RegionID" : 26
+		},
+		{
+			"Question" : "In Albania, World War II began with its invasion by ______ in April 1939.",
+			"Answer" : "Italy",
+			"RegionID" : 27
+		},
+		{
+			"Question" : "The military history of Greece during World War II began on ________",
+			"Answer" : "October 28, 1940",
+			"RegionID" : 28
+		},
+		{
+			"Question" : "Bulgaria functioned as an __________ state during most of World War II",
+			"Answer" : "Authoritarian",
+			"RegionID" : 29
+		},
+		{
+			"Question" : "In ___________, Turkey entered the war on the side of the Allies",
+			"Answer" : "February 1945",
+			"RegionID" : 30
+		}
+	] 
+}
