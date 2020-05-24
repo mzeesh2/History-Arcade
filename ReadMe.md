@@ -19,11 +19,12 @@ Eclipse can sometimes give errors after importing the project. This is because b
 7. Right click this file, navigate to "Build Path" and select "Add to Build Path" 
 8. Everything should be working now.
 ## How to start the game
-1. Find the "GameServer.java" file and execute
-2. The console will ask you to enter a port number. You can enter 5555 for default 
-3. A started server message should display after port number has been entered.
-4. Now find the "PlayerUI_FX.java" file and execute. 
-5. Select single player or multiplayer
+1. Expand the History Arcade folder, then src and then default package.
+2. Find the "GameServer.java" file and execute
+3. The console will ask you to enter a port number. You can enter 5555 for default 
+4. A started server message should display after port number has been entered.
+5. Now find the "PlayerUI_FX.java" file and execute. 
+6. Select single player or multiplayer
 ### Single-Player VS Multi-Player Setup
 #### Single-Player Setup 
 1. Select single player and choose which war you want to be quizzed on. (Civil War is under progress)
